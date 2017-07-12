@@ -1,0 +1,137 @@
+[
+  [
+    ["你好","hello",null,null,1],
+    [null,null,"Nǐ hǎo","heˈlō,həˈlō"]
+  ],
+  [
+    ["感叹词",
+      ["你好!","喂!"],
+      [
+        ["你好!",
+          ["Hello!","Hi!","Hallo!"],
+          null, 0.13323711],
+        ["喂!",
+          ["Hey!","Hello!"],
+          null, 0.020115795
+        ]
+      ],
+      "Hello!", 9
+    ]
+  ],
+  "en",
+  null,
+  null,
+  [
+    ["hello",
+      null,
+      [
+        ["你好",
+          1000,
+          true,
+          false],
+        ["您好",
+          1000,
+          true,
+          false],
+        ["你好",
+          1000,
+          true,
+          false]
+      ],
+      [
+        [0,5]
+      ],
+      "hello",
+      0,
+      0
+    ]
+  ],
+  1,
+  null,
+  [
+    ["en"],
+    null,
+    [1],
+    ["en"]
+  ],
+  null,
+  null,
+  [
+    ["名词",
+      [
+        [
+          ["howdy",
+            "hullo",
+            "hi",
+            "how-do-you-do"
+          ],
+          ""
+        ]
+      ],
+      "hello"
+    ],
+    ["惊叹词",
+      [
+        [
+          ["hi","howdy","hey","hiya","ciao","aloha"],
+          "m_en_us1254307.001"
+        ]
+      ],"hello"
+    ]
+  ],
+  [
+    ["名词",
+      [
+        ["an utterance of “hello”; a greeting.","m_en_us1254307.006","she was getting polite nods and hellos from people"]
+      ],"hello"
+    ],
+    ["惊叹词",
+      [
+        ["used as a greeting or to begin a telephone conversation.","m_en_us1254307.001","hello there, Katie!"
+        ]
+      ],"hello"
+    ],
+    ["动词",
+      [
+        ["say or shout “hello”; greet someone.","m_en_us1254307.007","‘Hi Kirsten,’ he helloed , obviously calling me Kirsten on purpose."]
+      ],"hello"
+    ]
+  ],
+  [
+    [
+      ["‘Oh, \u003cb\u003ehello\u003c/b\u003e ,’ she'd said to Brett, evidently surprised to see him standing in her kitchen with her daughter.",null,null,null,3,"m_en_us1254307.001"],
+      ["\u003cb\u003ehello\u003c/b\u003e, is anybody in?",null,null,null,3,"neid_9508"],
+      ["Tlingit people do not use such greetings as \u003cb\u003ehello\u003c/b\u003e , good-bye, good afternoon, or good evening.",null,null,null,3,"m_en_us1254307.001"],
+      ["Quentin is surprised to see Maggie, and says \u003cb\u003ehello\u003c/b\u003e .",null,null,null,3,"m_en_us1254307.001"],
+      ["But - \u003cb\u003ehello\u003c/b\u003e - they're only 15, and they're only playing at being grown up.",null,null,null,3,"m_en_us1254307.005"],
+      ["He was a little surprised since he had already said \u003cb\u003ehello\u003c/b\u003e to her that morning.",null,null,null,3,"m_en_us1254307.001"],
+      ["A man standing in line at the check-out counter of a grocery store was surprised when an attractive woman behind him said \u003cb\u003ehello\u003c/b\u003e .",null,null,null,3,"m_en_us1254307.001"],
+      ["They sit in classrooms and cannot hear the teachers so, \u003cb\u003ehello\u003c/b\u003e , it is no surprise that we are unable to get good outcomes from our education system.",null,null,null,3,"m_en_us1254307.005"],
+      ["I was stunned and I said I'm surprised anyone says \u003cb\u003ehello\u003c/b\u003e to me ever in the mall or in the store after reading that.",null,null,null,3,"m_en_us1254307.001"],
+      ["‘Oh, \u003cb\u003ehello\u003c/b\u003e ,’ she said acting surprised to see the four boys staring at her.",null,null,null,3,"m_en_us1254307.001"],
+      ["Every gathering she beds another partner who isn't her husband, \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.005"],
+      ["she refused and, \u003cb\u003ehello\u003c/b\u003e, I'm her manager!",null,null,null,3,"neid_9509"],
+      ["She must have been really stupid to have mimicked me… I mean, \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.005"],
+      ["I thought it summed up what I wanted to say and it also is a way to say \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.001"],
+      ["I haven't seen her in over a year, and yesterday she just strolls casually up to me and says \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.001"],
+      ["But as I was saying, so here I am in the library, panicking because the glue stick has just run out - and it's totally bad form to use tape because I mean, \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.005"],
+      ["It is extraordinary how much can be achieved when you put enthusiasm into a routine task, a special project or a simple \u003cb\u003ehello\u003c/b\u003e or conversation.",null,null,null,3,"m_en_us1254307.006"],
+      ["So Bob, if you are out there, drop in and say \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.001"],
+      ["Okay, so maybe costs rose by more than 1% in that period, and maybe sales dropped earlier in the year, but \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.005"],
+      ["\u003cb\u003ehello\u003c/b\u003e there, Katie!",null,null,null,3,"m_en_gb0372340.001"],
+      ["\u003cb\u003ehello\u003c/b\u003e! did you even get what the play was about?",null,null,null,3,"m_en_us1254307.005"],
+      ["I yelled \u003cb\u003ehello\u003c/b\u003e upstairs as I began to head up to see if I could help Mrs. Bishop out.",null,null,null,3,"m_en_us1254307.004"],
+      ["When their eyes met, she grinned wickedly in an informal \u003cb\u003ehello\u003c/b\u003e .",null,null,null,3,"m_en_us1254307.006"],
+      ["It was a pleasant surprise when Sheila Sheridan came over to say \u003cb\u003ehello\u003c/b\u003e .",null,null,null,3,"m_en_us1254307.001"],
+      ["If you haven't met Joy yet, pop over to her site and say \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.001"],
+      ["\u003cb\u003ehello\u003c/b\u003e there, Katie!",null,null,null,3,"m_en_us1254307.001"],
+      ["With little more than a \u003cb\u003ehello\u003c/b\u003e , I began to reread the letter that was in my hand.",null,null,null,3,"m_en_us1254307.006"],
+      ["Umm… \u003cb\u003ehello\u003c/b\u003e , the world just ended, everyone seems bizarrely unaffected, like the predicted deep freeze has already reached their brains.",null,null,null,3,"m_en_us1254307.005"],
+      ["I mean - \u003cb\u003ehello\u003c/b\u003e - this is just kind of a witty, fun movie.",null,null,null,3,"m_en_us1254307.005"],
+      ["The girl is finding love on the telephone, \u003cb\u003ehello\u003c/b\u003e !",null,null,null,3,"m_en_us1254307.005"]
+    ]
+  ],
+  [
+    ["Hello!","say hello"]
+  ]
+]

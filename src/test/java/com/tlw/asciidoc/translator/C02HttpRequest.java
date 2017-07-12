@@ -1,9 +1,6 @@
 package com.tlw.asciidoc.translator;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
@@ -20,9 +17,11 @@ public class C02HttpRequest {
         InputStream inputStream = urlConnection.getInputStream();
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        StringBuilder stringBuilder = new StringBuilder();
         String line = "";
         while((line = bufferedReader.readLine()) != null){
-            System.out.println(line);
+            stringBuilder.append(line);
+            stringBuilder.append("\n");
         }
         inputStream.close();
     }
