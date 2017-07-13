@@ -1,0 +1,69 @@
+LinkAddress:
+
+    http://fanyi.baidu.com/transapi
+
+RequestHead:
+
+    POST http://fanyi.baidu.com/transapi HTTP/1.1
+    Host: fanyi.baidu.com
+    Proxy-Connection: keep-alive
+    Content-Length: 60
+    Accept: */*
+    Origin: http://fanyi.baidu.com
+    X-Requested-With: XMLHttpRequest
+    User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3107.4 Safari/537.36
+    Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+    Referer: http://fanyi.baidu.com/
+    Accept-Encoding: gzip, deflate
+    Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+    Cookie: BAIDUID=50AE0F749834A458A2D65EE40CA8BB17:FG=1; pgv_pvi=1492016128; pgv_si=s561476608;
+    BIDUPSID=50AE0F749834A458A2D65EE40CA8BB17; PSTM=1499738795; BDRCVFR[IzI_eUGSZP3]=mbxnW11j9Dfmh7GuZR8mvqV;
+    BDORZ=B490B5EBF6F3CD402E515D22BCDA1598; PSINO=1; H_PS_PSSID=1437_13548_21108_17001_22074; locale=zh;
+    to_lang_often=%5B%7B%22value%22%3A%22zh%22%2C%22text%22%3A%22%u4E2D%u6587%22%7D%2C%7B%22value%22%3A%22en%22%2C%22text%22%3A%22%u82F1%u8BED%22%7D%5D; REALTIME_TRANS_SWITCH=1;
+    FANYI_WORD_SWITCH=1; HISTORY_SWITCH=1; SOUND_SPD_SWITCH=1; SOUND_PREFER_SWITCH=1; APPGUIDE=1;
+    Hm_lvt_64ecd82404c51e03dc91cb9e8c025574=1499850082; Hm_lpvt_64ecd82404c51e03dc91cb9e8c025574=1499850268;
+    from_lang_often=%5B%7B%22value%22%3A%22en%22%2C%22text%22%3A%22%u82F1%u8BED%22%7D%2C%7B%22value%22%3A%22zh%22%2C%22text%22%3A%22%u4E2D%u6587%22%7D%5D
+
+ResponseHeaders:
+
+    HTTP/1.1 200 OK
+    Transfer-Encoding: chunked
+    Content-Encoding: gzip
+    Content-Type: application/json
+    Date: Thu, 13 Jul 2017 01:41:35 GMT
+    Keep-Alive: timeout=38
+    Server: Apache
+    Vary: Accept-Encoding
+
+Response:
+
+{
+    "from": "en",
+    "to": "zh",
+    "domain": "all",
+    "type": 2,
+    "status": 0,
+    "data": [
+        {
+            "dst": "你好，汤姆，你要去哪里？。",
+            "src": "Hello tom, where you'll go.",
+            "relation": [],
+            "result": [
+                [
+                    0,
+                    "你好，汤姆，你要去哪里？。",
+                    [
+                        "0|26"
+                    ],
+                    [],
+                    [
+                        "0|26"
+                    ],
+                    [
+                        "0|39"
+                    ]
+                ]
+            ]
+        }
+    ]
+}
