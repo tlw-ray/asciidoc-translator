@@ -1,4 +1,4 @@
-package com.tlw.asciidoc.translator;
+package com.tlw.asciidoc.translator.google.fail;
 
 
 import javax.script.ScriptEngine;

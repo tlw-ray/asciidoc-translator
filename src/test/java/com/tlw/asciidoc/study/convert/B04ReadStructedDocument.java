@@ -1,4 +1,4 @@
-package com.tlw.asciidoc.translator;
+package com.tlw.asciidoc.study.convert;
 
 import com.alibaba.fastjson.JSON;
 import org.asciidoctor.Asciidoctor;
@@ -12,19 +12,25 @@ import java.util.List;
 
 /**
  * Created by hdp on 2017/7/9.
+ * 文档的内容结构信息
  */
-public class B04EachContentPart {
+public class B04ReadStructedDocument {
     public static void main(String[] args){
         Asciidoctor asciidoctor = Asciidoctor.Factory.create();
-        File file = new File("asciidoc/article.txt");
+//        File file = new File("asciidoc/article.txt");
+        File file = new File("asciidoc/book.txt");
+//        File file = new File("asciidoc/book-multi.txt");
+
 
         StructuredDocument structuredDocument = asciidoctor.readDocumentStructure(file, new HashMap());
 
         //Header
         DocumentHeader documentHeader = structuredDocument.getHeader();
-        System.out.println(JSON.toJSONString(documentHeader));
+        System.out.println("DocumentHeader:");
+        System.out.println("\t" + JSON.toJSONString(documentHeader));
 
         //Parts
+        System.out.println("ContentParts: ");
         for (ContentPart part : structuredDocument.getParts()){
             parsePart(part, "\t");
         }

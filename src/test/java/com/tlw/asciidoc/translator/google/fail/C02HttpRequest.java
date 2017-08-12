@@ -1,4 +1,4 @@
-package com.tlw.asciidoc.translator;
+package com.tlw.asciidoc.translator.google.fail;
 
 import java.io.*;
 import java.net.MalformedURLException;

@@ -1,7 +1,6 @@
-package com.tlw.asciidoc.translator.processor;
+package com.tlw.asciidoc.study.processor;
 
 import org.asciidoctor.Asciidoctor;
-import org.asciidoctor.Options;
 import org.asciidoctor.OptionsBuilder;
 import org.asciidoctor.SafeMode;
 import org.asciidoctor.ast.Document;

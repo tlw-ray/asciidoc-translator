@@ -1,8 +1,7 @@
-package com.tlw.asciidoc.translator;
+package com.tlw.asciidoc.study.convert;
 
 import org.asciidoctor.Asciidoctor;
 
-import java.io.File;
 import java.util.HashMap;
 
 /**
@@ -11,7 +10,7 @@ import java.util.HashMap;
 public class B01ConvertString {
     public static void main(String[] args){
         Asciidoctor asciidoctor = Asciidoctor.Factory.create();
-        String html = asciidoctor.convert("Writing AsciiDoc is _easy_!", new HashMap<String, Object>());
+        String html = asciidoctor.render("Writing AsciiDoc is _easy_!", new HashMap<String, Object>());
         System.out.println(html);
     }
 }

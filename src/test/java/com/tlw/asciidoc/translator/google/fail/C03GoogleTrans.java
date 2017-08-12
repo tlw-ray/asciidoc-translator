@@ -1,15 +1,12 @@
-package com.tlw.asciidoc.translator;
+package com.tlw.asciidoc.translator.google.fail;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
-import jdk.nashorn.internal.parser.JSONParser;
-import org.jboss.netty.logging.Slf4JLoggerFactory;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.logging.Logger;
